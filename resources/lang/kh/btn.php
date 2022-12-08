@@ -1,0 +1,15 @@
+<?php
+    return[ 
+        "btn_save"=>"រក្សាទុក",
+        "btn_back"=>"ត្រឡប់ក្រោយ",
+        "btn_print"=>"បោះពុម្ព",
+        "btn_apply"=>"អនុវត្ត",
+        "btn_restore"=>"ទៅដូចដើមវិញ",
+        "btn_trash"=>"លុប",
+        "btn_edit"=>"កែប្រែ",
+        "btn_enable"=>"បើក",
+        "btn_disable"=>"បិទ",
+        "btn_OK"=>"យល់ព្រម",
+        "btn_detail"=>"លម្អិត",
+        "btn_back_to_home"=>"ត្រឡប់ទៅទំព័រដើម",
+];
