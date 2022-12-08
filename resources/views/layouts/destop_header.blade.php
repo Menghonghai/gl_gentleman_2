@@ -613,22 +613,19 @@
                                         </a>
                                         
                                     </li> --}}
-                                    <li class="slide {{ nav_checkactive(['sale'], $args, 'is-expanded') }}">
-                                        <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0);"><i class="fa-solid fa-bag-shopping"></i></i>&nbsp;<span class="side-menu__label">@lang('dev.sales')</span><i
-                                                class="angle fe fe-chevron-right"></i></a>
-                                        <ul class="slide-menu ">
-                                            <li class="side-menu__label1 "><a href="javascript:void(0);"></a></li>
-                                            {{-- <li><a class="slide-item active" href="index.html">Dashboard-1</a></li> --}}
-                                            <li><a class="slide-item {{ nav_checkactive(['sale-index'], $args) }}"
-                                                    href="{{ url_builder('admin.controller', ['sale']) }}">@lang('dev.sales')</a>
-                                            </li>
-                                            <li class="side-menu__label1 "><a href="javascript:void(0);"></a></li>
-                                            {{-- <li><a class="slide-item active" href="index.html">Dashboard-1</a></li> --}}
-                                            <li><a class="slide-item {{ nav_checkactive(['sale-create'], $args) }}"
-                                                    href="{{ url_builder('admin.controller', ['sale', 'create']) }}">@lang('dev.new')</a>
-                                            </li>
-                                        </ul>
+                                    <li class="nav-links__item  nav-links__item--has-submenu ">
+                                        <a class="nav-links__item-link " href="">
+                                            <div class="nav-links__item-body">
+                                                @lang('dev.all_categorie')
+                                                <svg class="nav-links__item-arrow" width="9px" height="6px">
+                                                    <use xlink:href="images/sprite.svg#arrow-rounded-down-9x6"></use>
+                                                </svg>
+                                            </div>
+                                        </a>
+                                        
                                     </li>
+                                            
+                                    
     
                                     {{-- <li class="nav-links__item  nav-links__item--has-submenu ">
                                         <a class="nav-links__item-link {{ nav_checkactive(['products-index'], $args)}}" href="{{ url_builder('admin.controller', ['products', 'index']) }}">
@@ -651,10 +648,10 @@
                                     <button type="button" class="indicator__button">
                                         <span class="indicator__area">
                                             <svg class="indicator__icon" width="20px" height="20px">
-                                                <use xlink:href="images/sprite.svg#search-20"></use>
+                                                <use xlink:href="{{ asset('public/images/sprite.svg#search-20') }}"></use>
                                             </svg>
                                             <svg class="indicator__icon indicator__icon--open" width="20px" height="20px">
-                                                <use xlink:href="images/sprite.svg#cross-20"></use>
+                                                <use xlink:href="{{ asset('public/images/sprite.svg#cross-20') }}"></use>
                                             </svg>
                                         </span>
                                     </button>
@@ -665,7 +662,7 @@
                                                     <input class="search__input" name="search" placeholder="Search over 10,000 products" aria-label="Site search" type="text" autocomplete="off">
                                                     <button class="search__button search__button--type--submit" type="submit">
                                                         <svg width="20px" height="20px">
-                                                            <use xlink:href="images/sprite.svg#search-20"></use>
+                                                            <use xlink:href="{{ asset('public/images/sprite.svg#search-20') }}"></use>
                                                         </svg>
                                                     </button>
                                                     <div class="search__border"></div>
@@ -679,7 +676,7 @@
                                     <a href="wishlist.html" class="indicator__button">
                                         <span class="indicator__area">
                                             <svg width="20px" height="20px">
-                                                <use xlink:href="images/sprite.svg#heart-20"></use>
+                                                <use xlink:href="{{ asset('public/images/sprite.svg#heart-20') }}"></use>
                                             </svg>
                                             <span class="indicator__value">0</span>
                                         </span>
@@ -689,7 +686,7 @@
                                     <a href="cart.html" class="indicator__button">
                                         <span class="indicator__area">
                                             <svg width="20px" height="20px">
-                                                <use xlink:href="images/sprite.svg#cart-20"></use>
+                                                <use xlink:href="{{ asset('public/images/sprite.svg#cart-20') }}"></use>
                                             </svg>
                                             <span class="indicator__value">3</span>
                                         </span>
@@ -702,7 +699,7 @@
                                                     <div class="dropcart__product">
                                                         <div class="product-image dropcart__product-image">
                                                             <a href="product.html" class="product-image__body">
-                                                                <img class="product-image__img" src="images/products/product-1.jpg" alt="">
+                                                                <img class="product-image__img" src="{{ asset('public/images/products/product-1.jpg') }}" alt="">
                                                             </a>
                                                         </div>
                                                         <div class="dropcart__product-info">
@@ -797,7 +794,7 @@
                                     <a href="account-login.html" class="indicator__button">
                                         <span class="indicator__area">
                                             <svg width="20px" height="20px">
-                                                <use xlink:href="images/sprite.svg#person-20"></use>
+                                                <use xlink:href="{{ asset('public/images/sprite.svg#person-20') }}"></use>
                                             </svg>
                                         </span>
                                     </a>

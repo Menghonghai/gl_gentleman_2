@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="{{ asset('public/vendor/select2/css/select2.min.css') }}">
     <link rel="stylesheet" href="{{ asset('public/assets/css/style.css') }}">
     <!-- font - fontawesome -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset('public/vendor/fontawesome/css/all.min.css') }}">
     <!-- font - stroyka -->
     <link rel="stylesheet" href="fonts/stroyka/stroyka.css">
