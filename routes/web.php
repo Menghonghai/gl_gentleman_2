@@ -19,6 +19,12 @@ use Illuminate\Support\Facades\Auth;
 Route::get('/', function () {
     //return view('welcome');
     return view('home');
+    
+});
+Route::get('/product', function () {
+    //return view('welcome');
+    return view('app.products.product-alt');
+
 });
 
 Auth::routes();
