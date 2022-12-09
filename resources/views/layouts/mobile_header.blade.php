@@ -7,7 +7,7 @@
                 <div class="mobile-header__body">
                     <button class="mobile-header__menu-button">
                         <svg width="18px" height="14px">
-                            <use xlink:href="images/sprite.svg#menu-18x14"></use>
+                            <use xlink:href="{{ asset('public/images/sprite.svg#menu-18x14') }}"></use>
                         </svg>
                     </button>
                     <a class="mobile-header__logo" href="index.html">
@@ -44,7 +44,7 @@
                                 </button>
                                 <button class="search__button search__button--type--close" type="button">
                                     <svg width="20px" height="20px">
-                                        <use xlink:href="images/sprite.svg#cross-20"></use>
+                                        <use xlink:href="{{ asset('public/images/sprite.svg#cross-20') }}"></use>
                                     </svg>
                                 </button>
                                 <div class="search__border"></div>
@@ -57,7 +57,7 @@
                             <button class="indicator__button">
                                 <span class="indicator__area">
                                     <svg width="20px" height="20px">
-                                        <use xlink:href="images/sprite.svg#search-20"></use>
+                                        <use xlink:href="{{ asset('public/images/sprite.svg#search-20') }}"></use>
                                     </svg>
                                 </span>
                             </button>
@@ -66,7 +66,7 @@
                             <a href="wishlist.html" class="indicator__button">
                                 <span class="indicator__area">
                                     <svg width="20px" height="20px">
-                                        <use xlink:href="images/sprite.svg#heart-20"></use>
+                                        <use xlink:href="{{ asset('public/images/sprite.svg#heart-20') }}"></use>
                                     </svg>
                                     <span class="indicator__value">0</span>
                                 </span>
@@ -76,7 +76,7 @@
                             <a href="cart.html" class="indicator__button">
                                 <span class="indicator__area">
                                     <svg width="20px" height="20px">
-                                        <use xlink:href="images/sprite.svg#cart-20"></use>
+                                        <use xlink:href="{{ asset('public/images/sprite.svg#cart-20') }}"></use>
                                     </svg>
                                     <span class="indicator__value">3</span>
                                 </span>

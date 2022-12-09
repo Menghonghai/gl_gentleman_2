@@ -6,7 +6,7 @@
             <div class="mobilemenu__title">Menu</div>
             <button type="button" class="mobilemenu__close">
                 <svg width="20px" height="20px">
-                    <use xlink:href="images/sprite.svg#cross-20"></use>
+                    <use xlink:href="{{ asset('public/images/sprite.svg#cross-20') }}"></use>
                 </svg>
             </button>
         </div>
@@ -17,7 +17,7 @@
                         <a href="index.html" class="mobile-links__item-link">Home</a>
                         <button class="mobile-links__item-toggle" type="button" data-collapse-trigger>
                             <svg class="mobile-links__item-arrow" width="12px" height="7px">
-                                <use xlink:href="images/sprite.svg#arrow-rounded-down-12x7"></use>
+                                <use xlink:href="{{ asset('public/images/sprite.svg#arrow-rounded-down-12x7') }}"></use>
                             </svg>
                         </button>
                     </div>
